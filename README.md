@@ -6,7 +6,7 @@ Este repositório contém um sistema de Visual Novel desenvolvido em Unity, proj
 
 O sistema é modular e organizado em torno de componentes-chave, que trabalham juntos para gerenciar o fluxo da história.
 
-- **StoryGamePlayer.cs:** Este é o ponto principal do jogo. Ele gerencia a sequência de capítulos, representados por objetos StoryCap, e controla o fluxo de transição entre eles. A reprodução de vídeos de carregamento também é orquestrada por este componente.
+- **StoryGamePlayer.cs:** Este é o ponto principal do jogo. Ele gerencia a sequência de capítulos, representados por objetos **StoryCap**, e controla o fluxo de transição entre eles. A reprodução de vídeos de carregamento também é orquestrada por este componente.
 - **StoryCapPlayer.cs:** Este componente é central para a reprodução de um único capítulo. Ele é responsável por ler o arquivo de texto do capítulo, gerenciar as cenas, controlar a trilha sonora (música e efeitos sonoros) e orquestrar a exibição do diálogo.
 - **BottomBarController.cs:** Gerencia a interface de usuário. Ele exibe o texto, processa comandos embutidos e lida com a lógica de avanço da fala, incluindo a opção de pular a frase atual.
 - **CharacterLayerManager.cs:** Controla a exibição e a animação dos personagens. Ele gerencia diferentes "slots" para os personagens e lida com transições de aparecimento e desaparecimento (fade in/fade out).
